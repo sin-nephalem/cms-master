@@ -94,7 +94,7 @@ public class ArticleController {
             @NotNull String title,
             @NotNull String content,
             String source,
-            @NotNull long categoryId,
+            long categoryId,
             Long authorId){
         Article article = new Article();
         article.setId(id);
